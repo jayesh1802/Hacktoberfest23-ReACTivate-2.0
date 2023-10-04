@@ -1,3 +1,6 @@
+# If you want to find out everything about our clubs and committees, you can get all the information from this link.
+[Link](https://www.daiict.ac.in/student-committees-and-clubs)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
