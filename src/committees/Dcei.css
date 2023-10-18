@@ -1,0 +1,34 @@
+.complete-page {
+    background-color: white;
+}
+
+.top-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dcei-heading{
+    font-size: 48px;
+    text-shadow: 2px 2px #00000070;
+}
+
+.dcei-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.daiict-logo {
+    width: 200 px;
+    height: 200 px;
+}
+.upcoming-events{
+    text-shadow: 2px 2px #0000005e;
+    text-align: center;
+}
+.contact{
+    margin-left: 100px;
+}
+.contact-person{
+    font-size: 20px;
+}
