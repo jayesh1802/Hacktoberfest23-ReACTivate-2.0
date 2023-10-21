@@ -1,6 +1,8 @@
 
 import './App.css';
 
+
+
 import Clublist from './Clublist';
 import Academic from './committees/Academic_Committee';
 import Cultural from './committees/Cultural_Committee';
@@ -12,7 +14,7 @@ import React from 'react'
 const App = () => {
   return (
     <div>
-    <div >
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Clublist />}></Route>

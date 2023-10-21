@@ -1,4 +1,4 @@
-
+import ParticlesBg from 'particles-bg';
 
 
 
@@ -52,7 +52,7 @@ export default function Clublist() {
 
   }
   return (
-    <div className="container">
+    <div className="container scroll">
       <table className="mytable">
         <caption className="mycaption">Clubs and Committees at DA-IICT</caption>
         <thead >
@@ -66,6 +66,7 @@ export default function Clublist() {
           {rowgen()}
         </tbody>
       </table>
+      <ParticlesBg type="thick" bg={true} />
     </div>
   )
 }
