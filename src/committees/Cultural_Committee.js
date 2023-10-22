@@ -179,7 +179,7 @@ export const CulturalEvent = ({ clubName, events }) => {
 const eventsData = [
     {
         name: "Teachers Day",
-        date: "2023-10-15T18:00:00",
+        date: "2023-10-25T18:00:00",
         time: "10:00 AM",
         imageFileName: "teachers-day.jpg",
         eventorganizer: "Organizer 1",
@@ -187,7 +187,7 @@ const eventsData = [
     },
     {
         name: "Janmashtami",
-        date: "2023-10-16T14:30:00",
+        date: "2023-10-26T14:30:00",
         time: "2:30 PM",
         imageFileName: "mud-holi.jpg",
         eventorganizer: "Organizer 2",
@@ -195,7 +195,7 @@ const eventsData = [
     },
     {
         name: "Tarang(Navratri)",
-        date: "2023-10-17T14:30:00",
+        date: "2023-10-30T14:30:00",
         time: "2:30 PM",
         imageFileName: "garba.jpg",
         eventorganizer: "Organizer 3",
@@ -203,7 +203,7 @@ const eventsData = [
     },
     {
         name: "Maniere",
-        date: "2023-10-16T18:30:00",
+        date: "2023-11-03T18:30:00",
         time: "2:30 PM",
         imageFileName: "maniere.jpeg",
         eventorganizer: "Organizer 4",
@@ -211,7 +211,7 @@ const eventsData = [
     },
     {
         name: "Ganesh Chaturthi",
-        date: "2023-10-18T14:30:00",
+        date: "2023-11-04T14:30:00",
         time: "2:30 PM",
         imageFileName: "ganesh-sthapana.jpeg",
         eventorganizer: "Organizer 5",
