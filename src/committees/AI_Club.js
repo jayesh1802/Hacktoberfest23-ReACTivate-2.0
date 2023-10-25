@@ -2,13 +2,30 @@ import logo from "../images/ai_club.png";
 import location from "../images/location.png"
 import aiclub from "../images/aiclub.jpg"
 import "./AI_Club.css"
+import CountdownTimer from "./DCEI Components/CountdownTimer";
 
 export default function AI_club() {
 
     function Upcoming() {
+        const date="2023-11-04T23:59:59";
         return (
-            <div className="events1">
-                No upcoming events.
+            <div className="events2">
+                <div className="month">
+                    February 2023
+                </div>
+                <div className="eventbox">
+                    <div className="datebox">
+                        <div className="dateno" style={{ "font-size": "40px", }}>24 </div>
+                        Feb
+                    </div>
+                    <div className="eventDetails">
+                        <div className="name">Guest Hands on Blockchain Session</div>
+                        <div className="location"> <img src={location} style={{ "width": "15px", "height": "15px" }} alt="location" />   DA-IICT Auditorium, near Reliance Chowkdi, 390040</div>
+                        <a href="/ok">Find out more</a>
+                        <CountdownTimer targetDate={date}/>
+
+                    </div>
+                </div>
             </div>
         )
     }
