@@ -98,6 +98,7 @@ export default function AI_club() {
             </div>
 
             </div>
+            <center><a href="/"><button>Go home</button></a></center>
             </div>
             
         </div>
