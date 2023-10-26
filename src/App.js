@@ -9,6 +9,7 @@ import Cultural from './committees/Cultural_Committee';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import React from 'react'
 import Dcei from './committees/DCEI';
+import AI_club from './committees/AI_Club';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/1' element={<Academic />}></Route>
           <Route path='/5' element={<Cultural />}></Route>
             <Route path='/14' element={<Dcei/>}></Route>
+            <Route path='/2' element={<AI_club/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
