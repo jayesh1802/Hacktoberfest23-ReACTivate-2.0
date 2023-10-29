@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+.mybutton{
+  margin: 10px;
+  font-size: 30px;
+  color: crimson;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: lightgreen;
+  /* border-radius: 5px; */
+}
+.mybutton:hover{
+  background-color: rgb(49, 178, 49);
+}
+
+.mybutton:active{
+  background-color: darkgreen;
+}
