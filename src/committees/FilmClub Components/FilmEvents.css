@@ -1,0 +1,88 @@
+.film-event-box{
+    display: flex;
+
+}
+.film-event-container{
+    display: flex;
+    
+
+} 
+.film-final-container{
+    border: 2px solid #34dbdb; /* Set the border color to a light blue-cyan color */
+    border-radius: 10px;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    color: white;
+    padding :10px;
+    transition: border-color 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.film-final-container:hover{
+    border-color: #00ccc2; 
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    box-shadow: 0 0 20px rgba(0, 128, 139, 0.5);
+}
+.film-date{
+    background-color: rgb(23, 194, 194);
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 60px;
+
+}
+.film-event-date{
+    text-align: center;
+}
+.film-name-description{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.film-event-my{
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+.adjust{
+    padding: 1px;
+    margin: 0px;
+    font-size: larger;
+}
+.film-paragraph{
+    font-size: larger;
+}
+.trailer-button{
+    background-color: rgb(23, 194, 194);
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: larger;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  color: black;
+}
+.trailer-button:hover{
+    background-color: #008b8b;
+}
+.film-time-heading{
+    font-size: larger;
+    text-align: center;
+}
+#film-countdown{
+
+    font-size: larger;
+}
+#film-countdown.blink{
+    text-align: center;
+}
+.film-countdown-container{
+    border:2px solid #faf9f9;
+    width:180px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease;
+}

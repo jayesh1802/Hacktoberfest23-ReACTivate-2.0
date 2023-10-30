@@ -22,6 +22,7 @@ const App = () => {
             <Route path='/14' element={<Dcei/>}></Route>
             <Route path ='/19' element={<Sambhav/>}></Route>
             <Route path='/2' element={<AI_club/>}></Route>
+            <Route path='/21' element={<FilmClub/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
