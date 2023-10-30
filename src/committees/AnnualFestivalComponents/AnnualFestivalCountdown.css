@@ -1,0 +1,19 @@
+#annual-countdown.blink{
+    color:black;
+    text-align: center;
+}
+.annual-time-heading{
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.annual-countdown-container{
+    border:2px solid #faf9f9;
+    width:180px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease;
+  margin-top:20px;
+  text-align: center;
+  margin-left: 130px;   
+}

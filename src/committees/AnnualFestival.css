@@ -1,0 +1,36 @@
+.vertical-timeline-title{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+.annual-event-description{
+    color:black;
+    font-size: larger;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.synapse-top-heading{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* .VerticalTimelineElement.vertical-timeline-element-date{
+    font-size:50px;
+} */
+.synapse-info{
+    margin-left:180px;
+    font-size: large;
+    margin-right: 180px;
+    text-align: justify;
+}
+.synapse-event-organizers{
+    margin-left:180px;
+    font-size: large;
+}
+.about-synapse{
+    margin-left:180px;
+    font-size: large;
+}
+.synapse-subheading{
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    /* overflow: hidden; */
+  }
+  
+  .star {
+    /* position: absolute; */
+    width: 2px;
+    height: 2px;
+    background: #fff;
+    opacity: 0;
+    animation: shooting-star 3s linear infinite;
+  }
+  
+  @keyframes shooting-star {
+    0% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(100vw, 100vh);
+    }
+  }
+  
