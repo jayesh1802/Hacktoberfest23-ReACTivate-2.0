@@ -53,6 +53,7 @@ const Sambhav = () => {
                 </div>
                 <div className="about-club">
                     <h2> Contact Us</h2>
+                    {/* Add convener and deputy convener as per the name */}
                     <p>Convener : Convener Name</p>
                     <p>Deputy Convener: Deputy Convener Name</p>
 
